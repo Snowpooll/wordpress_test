@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*
+Theme Name: snowcorp
+Description: snowpool theme test
+Author: snowpool
+Author URI: http://wp.developapp.net/
+Version: 1.0
+*/
+body{
+  margin: 0;
+  font-family: 'メイリオ', 'Hiragino Kaku Fothic Pro',sans-serif;
+  line-height: 1.5;
+}
