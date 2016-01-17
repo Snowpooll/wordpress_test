@@ -11,3 +11,21 @@ body{
   font-family: 'メイリオ', 'Hiragino Kaku Fothic Pro',sans-serif;
   line-height: 1.5;
 }
+/* iPad が 768px なのでそれ異常ならPC画面にする */
+@media (min-width: 768px) {
+  /* contents と sidebar を横に並べる */
+  .container::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .contents{
+    float: left;
+    width: 70%;
+  }
+  .sub{
+    float: right;
+    width: 30%;
+  }
+}
